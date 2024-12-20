@@ -86,7 +86,7 @@ If you would like to contribute to this project, feel free to fork the repositor
  5.VirusTotal Integration:
       Queries VirusTotal for reputation checks of IPs associated with captured packets.
       
-    6.Web-Based Interface:
+ 6.Web-Based Interface:
       Flask and SocketIO provide a real-time dashboard for process monitoring, alerts, and network analysis.
 ## Requirements:
   1.Python Libraries:
@@ -99,7 +99,7 @@ If you would like to contribute to this project, feel free to fork the repositor
    3.System Permissions:
        Administrator/root access for packet sniffing and system-level process monitoring.
      
-    4.External Services:
+   4.External Services:
        VirusTotal API key for reputation checks.
 ## System Architecture :
 ![DALL·E 2024-12-09 12 30 31 - A simple system architecture diagram for a keylogger detection system  The diagram includes_ (1) 'Data Collection Layer' at the bottom, with component](https://github.com/user-attachments/assets/30af32bd-7862-4f8d-8ecc-a2e36669bf85)
