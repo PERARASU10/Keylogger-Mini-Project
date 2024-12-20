@@ -66,40 +66,40 @@ If you would like to contribute to this project, feel free to fork the repositor
   The Keylogger Detection system is designed to identify potential keylogging activity on a system by monitoring processes, network packets, file activities, and suspicious patterns using advanced techniques like machine learning, YARA rules, and signature-based detection. It integrates real-time packet sniffing, process inspection, and DNS/SNMP analysis to ensure robust protection against keylogger threats.
 
 ## Features :
-    1.Real-Time Process Monitoring:
+  1.Real-Time Process Monitoring:
       Identifies malicious processes based on known signatures and hash matching.
       Tracks high CPU and memory usage by suspicious processes.
       Access denied processes are logged for further analysis.
       
-    2.Network Activity Monitoring:
+  2.Network Activity Monitoring:
       Captures DNS queries and SMTP connections to detect suspicious communications.
       Monitors packet-level information for potential malicious activity.
       
-    3.File Activity Detection:
+  3.File Activity Detection:
       Watches for unauthorized file access in monitored directories.
       Integrates with YARA rules to scan files for suspicious patterns.
       
-    4.Machine Learning Integration:
+ 4.Machine Learning Integration:
       Uses a pre-trained Random Forest model for real-time keylogger prediction based on packet flow features.
       Data is scaled for accurate predictions.
       
-    5.VirusTotal Integration:
+ 5.VirusTotal Integration:
       Queries VirusTotal for reputation checks of IPs associated with captured packets.
       
     6.Web-Based Interface:
       Flask and SocketIO provide a real-time dashboard for process monitoring, alerts, and network analysis.
 ## Requirements:
-     1.Python Libraries:
+    1.Python Libraries:
        Flask, SocketIO, psutil, scapy, yara, joblib, numpy, and requests.
      
-     2.Pre-trained Files:
+   2.Pre-trained Files:
        Random Forest model (random_forest_model.pkl).
        Scaler for feature transformation (scaler.pkl).
      
-     3.System Permissions:
+   3.System Permissions:
        Administrator/root access for packet sniffing and system-level process monitoring.
      
-     4.External Services:
+    4.External Services:
        VirusTotal API key for reputation checks.
 ## System Architecture :
 ![DALL·E 2024-12-09 12 30 31 - A simple system architecture diagram for a keylogger detection system  The diagram includes_ (1) 'Data Collection Layer' at the bottom, with component](https://github.com/user-attachments/assets/30af32bd-7862-4f8d-8ecc-a2e36669bf85)
@@ -109,18 +109,19 @@ If you would like to contribute to this project, feel free to fork the repositor
 ![photo-collage png](https://github.com/user-attachments/assets/a7ab862a-291f-4e17-9a08-fcef455f0933)
 
 ## Results and Impact :
-     1.Enhanced Security:
+
+    1.Enhanced Security:
        Real-time detection and prevention of keylogger activities.
        Reduces the risk of sensitive data theft.
      
-     2.Scalability:
+   2.Scalability:
        Extensible to include additional rules, machine learning models, or external APIs.
      
-     3.Transparency:
+   3.Transparency:
        Web-based alerts and logs provide actionable insights to the user.
      
-     4.Proactive Defense:
+  4.Proactive Defense:
        Combines traditional signature-based detection with machine learning for adaptive threat identification.
      
-     5.Usability:
+   5.Usability:
        Intuitive UI and detailed logs make the tool accessible for both technical and non-technical users.
