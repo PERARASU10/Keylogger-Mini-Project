@@ -89,7 +89,7 @@ If you would like to contribute to this project, feel free to fork the repositor
     6.Web-Based Interface:
       Flask and SocketIO provide a real-time dashboard for process monitoring, alerts, and network analysis.
 ## Requirements:
-    1.Python Libraries:
+  1.Python Libraries:
        Flask, SocketIO, psutil, scapy, yara, joblib, numpy, and requests.
      
    2.Pre-trained Files:
@@ -110,7 +110,7 @@ If you would like to contribute to this project, feel free to fork the repositor
 
 ## Results and Impact :
 
-    1.Enhanced Security:
+  1.Enhanced Security:
        Real-time detection and prevention of keylogger activities.
        Reduces the risk of sensitive data theft.
      
